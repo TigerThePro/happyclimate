@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #8ec4dd;
+  color: rgba(38, 167, 15, 0.9)d;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgba(55, 142, 181, 0.9);
+  background: rgba(199, 196, 32, 0.9);
   padding: 12px;
 }
 #header .logo h1 {
@@ -172,14 +172,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   text-transform: none;
   font-weight: 600;
-  color: #2f4d5a;
+  color: rgba(199, 196, 32, 0.9);
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #67b0d1;
+  color: rgba(38, 167, 15, 0.9);
 }
+
+.navbar a:hover {
+  color: rgba(38, 167, 15, 0.9);
+}
+
 .navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
@@ -233,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(43, 111, 142, 0.9);
+  background: rgba(199, 196, 32, 0.9);
   transition: 0.3s;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -259,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2f4d5a;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #67b0d1;
+  color: rgba(38, 167, 15, 0.9);
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -285,10 +290,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #67b0d1;
+  color: rgba(38, 167, 15, 0.9);
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
+}
+
+.nav_bar_dif_color a {
+  color: rgba(199, 196, 32, 0.9);
 }
 
 /*--------------------------------------------------------------
@@ -297,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/hero-bg.jpg") top center;
+  background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/fall.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -332,13 +341,13 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: -1px 0 2px #2f4d5a;
 }
 #hero .btn-get-started {
-  font-size: 36px;
+  font-size: 64px;
   display: inline-block;
   padding: 4px 0;
   border-radius: 50px;
   transition: 0.3s ease-in-out;
   margin: 10px;
-  width: 64px;
+  width: 240px;
   height: 64px;
   text-align: center;
   border: 2px solid #fff;
@@ -347,6 +356,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   padding-top: 8px;
   background: rgba(255, 255, 255, 0.15);
+  color: rgba(146, 241, 21, 0.493);
 }
 @media (min-width: 1024px) {
   #hero {
@@ -363,6 +373,11 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+}
+
+.center_text {
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -496,7 +511,7 @@ section {
   top: 9px;
 }
 .about .content .about-btn:hover {
-  background: #7bbad7;
+  background: rgba(38, 167, 15, 0.9);
 }
 .about .icon-boxes .icon-box {
   margin-top: 30px;
@@ -551,7 +566,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #67b0d1;
+  background: rgba(38, 167, 15, 0.9);
   top: 0;
   border-radius: 0px;
 }
@@ -626,7 +641,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 .counts .count-box a:hover {
-  color: #6e9fb4;
+  color: rgba(38, 167, 15, 0.9);
 }
 
 /*--------------------------------------------------------------
@@ -691,7 +706,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #67b0d1;
+  color: rgba(38, 167, 15, 0.9);
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -734,7 +749,7 @@ section {
   width: 50%;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(103, 176, 209, 0.95);
+  background: rgba(38, 167, 15, 0.9);
 }
 .portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #8ec4dd;
@@ -917,7 +932,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #2f4d5a;
+  color: rgba(38, 167, 15, 0.9);
   position: relative;
   padding-bottom: 10px;
 }
@@ -944,7 +959,7 @@ section {
   color: #52869d;
 }
 .team .member .social a:hover {
-  color: #67b0d1;
+  color: rgba(38, 167, 15, 0.9);
 }
 .team .member .social i {
   font-size: 16px;
@@ -1052,7 +1067,7 @@ section {
   transition: 0.4s;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #8ec4dd;
+  background: rgba(38, 167, 15, 0.9);
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1120,7 +1135,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #67b0d1;
+  background: rgba(38, 167, 15, 0.9);
   color: #fff;
   text-decoration: none;
 }
@@ -1160,7 +1175,7 @@ section {
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #a2cfe3;
+  color: rgba(38, 167, 15, 0.9);
 }
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
@@ -1189,7 +1204,7 @@ section {
   border-radius: 4;
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #409cc5;
+  background: rgba(38, 167, 15, 0.9);
 }
 #footer .copyright {
   border-top: 1px solid #385b6b;
