@@ -4,5 +4,8 @@ MOST of the code in website is from the template:
   Author: BootstrapMade.com
   License: https://bootstrapmade.com/license/
 
+"Pro Single" Version has been purchased!
+Single Wbsite License.
+
 image of the homescreen from:
   https://www.1zoom.me/en/wallpaper/327147/z1690.6/2050x1200
