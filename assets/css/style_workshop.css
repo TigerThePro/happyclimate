@@ -1085,7 +1085,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
+  background: rgba(199, 196, 32, 0.9);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1118,7 +1118,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2f4d5a;
+  background: rgba(199, 196, 32, 0.9)a;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1151,7 +1151,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #b5d9e9;
+  color: rgba(199, 196, 32, 0.9);
   font-size: 18px;
   line-height: 1;
 }
@@ -1193,24 +1193,26 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #67b0d1;
+  background: rgba(199, 196, 32, 0.9);
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: rgba(38, 167, 15, 0.9);
+  background: rgba(199, 196, 32, 0.9);
 }
 #footer .copyright {
-  border-top: 1px solid #385b6b;
+  border-top: 1px solid rgba(199, 196, 32, 0.9);
   text-align: center;
   padding-top: 30px;
+  background-color: rgba(199, 196, 32, 0.9);
 }
 #footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #fff;
+  background-color: rgba(199, 196, 32, 0.9);
 }
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
