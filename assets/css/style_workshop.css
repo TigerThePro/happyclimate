@@ -1205,14 +1205,12 @@ section {
   border-top: 1px solid rgba(199, 196, 32, 0.9);
   text-align: center;
   padding-top: 30px;
-  background-color: rgba(199, 196, 32, 0.9);
 }
 #footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #fff;
-  background-color: rgba(199, 196, 32, 0.9);
 }
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
