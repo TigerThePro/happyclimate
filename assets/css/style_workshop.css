@@ -1246,3 +1246,9 @@ section {
 .table_color a:hover {
   color: rgba(199, 196, 32, 0.9);
 }
+
+/* -------------------- */
+
+.center_video {
+  text-align: center;
+}
