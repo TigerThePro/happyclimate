@@ -1216,3 +1216,7 @@ section {
   vertical-align: top;
   width: 3500px;
 }
+
+.three_steps_space {
+  width: 20px;
+}
