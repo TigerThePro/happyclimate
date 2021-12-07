@@ -1260,3 +1260,16 @@ section {
 .center_video {
   text-align: center;
 }
+
+.share_buttons {
+  margin-top: 10px;
+}
+
+.share_buttons a{
+  margin-top: 10px;
+  color: white;
+}
+
+.share_buttons a:hover {
+  color: rgba(38, 167, 15, 0.9);
+}
